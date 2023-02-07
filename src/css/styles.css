@@ -90,7 +90,7 @@ input {
     justify-content: space-around;
     border: 1px solid #bdb8b8;
     border-radius: 0 0 5px 5px;
-
+    font-size: 12px;
 }
 
 .info-item {
@@ -101,4 +101,9 @@ input {
 
 .load-more {
     font-size: 20px;
+    margin: 0 auto;
 }
+.load-more.hidden {
+    display: none;
+}
+
